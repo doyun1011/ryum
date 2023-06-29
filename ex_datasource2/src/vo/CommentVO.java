@@ -5,13 +5,12 @@ import java.time.LocalDate;
 import lombok.Data;
 
 @Data
-public class BorderVO {
+public class CommentVO {
 	private int num;
 	private String id;
-	private String title;
+	private String content;
 	private String writer;
 	private LocalDate date;
 	private LocalDate mdDate;
-	private String content;
-	private String rp;
+	private int bnum;
 }

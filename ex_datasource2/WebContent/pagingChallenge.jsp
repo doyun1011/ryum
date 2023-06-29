@@ -40,8 +40,8 @@
 		<c:forEach var="row" items="${tlist}" varStatus="vs">
 			<c:if test="${vs.count >= index + 1 && not doneLoop}">
 				<tr>
-					<td>${row.num}</td>
-					<td>${row.title}</td>
+					<td><a href="detail?num=${row.num}">${row.num}</a></td>
+					<td>${row.title} (${row.rp})</td>
 					<td>${row.writer}</td>
 				</tr>
 			</c:if>
