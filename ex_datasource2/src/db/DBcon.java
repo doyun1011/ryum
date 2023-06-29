@@ -52,5 +52,7 @@ public class DBcon {
 	public static Connection getCon() {
         return con;
     }
+	
+	
 }
 
